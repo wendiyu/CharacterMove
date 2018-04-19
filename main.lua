@@ -90,7 +90,7 @@ function rightArrow:touch( event )
 	if ( event.phase == "ended" ) then
         -- move the character up
         transition.moveBy( SnowMen, { 
-        	x = 50, -- move 0 in the x direction 
+        	x = 100, -- move 0 in the x direction 
         	y = 0, -- move up 50 pixels
         	time = 1000 -- move in a 1/10 of a second
         	} )
