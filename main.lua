@@ -60,7 +60,7 @@ end
 function downArrow:touch( event )
 	-- body
 	if ( event.phase == "ended" ) then
-        -- move the character up
+        -- move the character down
         transition.moveBy( SnowMen, { 
         	x = 0, -- move 0 in the x direction 
         	y = 50, -- move up 50 pixels
@@ -74,7 +74,7 @@ end
 function leftArrow:touch( event )
 	-- body
 	if ( event.phase == "ended" ) then
-        -- move the character up
+        -- move the character left
         transition.moveBy( SnowMen, { 
         	x = -50, -- move 0 in the x direction 
         	y = 0, -- move up 50 pixels
@@ -88,7 +88,7 @@ end
 function rightArrow:touch( event )
 	-- body
 	if ( event.phase == "ended" ) then
-        -- move the character up
+        -- move the character right
         transition.moveBy( SnowMen, { 
         	x = 100, -- move 0 in the x direction 
         	y = 0, -- move up 50 pixels
